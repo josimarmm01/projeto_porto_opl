@@ -1,0 +1,44 @@
+
+//Numero de berços
+nbSections = 1;
+
+//Numero de Recuperadores
+nbReclaimer = 1;
+
+//Numero de Embarcações
+nbVessel = 2;
+
+//Numero de Tarefas
+nbTask = 3;
+
+//Prioridade dos navios
+weight = [5 6];
+
+//Tempo de chegada dos navios
+ArrivalTime = [1 4];
+
+//Comprimento dos navios
+L = [4 2];
+
+//Comprimento dos berços
+Ls = [5];
+
+//Periodos de Mare alta
+
+B = [0 3 9];
+E = [1 7 12];
+
+//Tempo que a tarefa ocupa no pátio
+P = [4 1 2];
+
+// O caminho de ferro no qual cada recuperador está montado
+Q = [1];
+
+//Comprimento das tarefas no patio
+len = [2 1 1];
+
+//Navio designado para cada estoque
+AssVessel=[1 1 2];
+
+//Distância entre recuperador e o berço		
+dist=[[0]];
